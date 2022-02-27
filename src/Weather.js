@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [weatherData, getWeatherData] = useState({ ready: false });
@@ -26,7 +27,9 @@ export default function Weather(props) {
         <h1>{props.defaultCity}</h1>
         <ul>
           <li>Last updated:</li>
-          <li>Sunday, 19:01</li>
+          <li>
+            <FormattedDate date={weatherData.date} />
+          </li>
         </ul>
         <div className="row">
           <div className="col-6">
