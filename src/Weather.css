@@ -24,9 +24,10 @@
 }
 
 .Weather canvas {
-  margin-left: 20px;
-  margin-top: 10px;
-  display: inline-block;
+  float: left;
+  position: relative;
+  top: -55px;
+  left: 100px;
 }
 
 .Weather .temperature {
