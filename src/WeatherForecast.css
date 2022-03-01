@@ -1,0 +1,6 @@
+.WeatherForecast {
+  text-align: center;
+}
+.WeatherForecast .Forecast-min-temp {
+  color: pink;
+}

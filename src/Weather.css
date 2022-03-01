@@ -24,17 +24,13 @@
 }
 
 .Weather canvas {
-  float: left;
-  position: relative;
-  top: -55px;
-  left: 100px;
+  display: inline-block;
 }
 
 .Weather .temperature {
   font-size: 48px;
   font-style: bolder;
   font-weight: 500;
-  line-height: 1;
 }
 
 .Weather .unit {
